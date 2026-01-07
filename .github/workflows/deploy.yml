@@ -30,7 +30,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "rsv51-1minai2api-13"
-          entrypoint: "main.ts"
+          entrypoint: "deploy.ts"
           root: "."
           
           
